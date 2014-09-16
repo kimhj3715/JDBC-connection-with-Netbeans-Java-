@@ -99,14 +99,6 @@ public class InsertPanel extends JPanel implements ActionListener{
                 }
                 System.out.println("1");
 
-                //con = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/chatprogram7081?zeroDateTimeBehavior=convertToNull");
-                //con = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/chatprogram7081?user=chatprogram70915&password=");
-                //con = DriverManager.getConnection("chatprogramdb");
-                if(con.createStatement().equals(null) ) {
-                    System.out.println("con.createStatement is Null");
-                } else {
-                    System.out.println(con.createStatement());
-                }
                 
                 stmt = con.createStatement();
                 
